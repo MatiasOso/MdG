@@ -2,29 +2,79 @@
 header {
     background-color: #11111f;
     color: #fff;
-    padding: 3em; 
+    padding: 1em;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bold;
 }
-
-
-
-
+*{
+    border: red 0.5px solid;
+}
 main {
+    width: 100%;
+    height: 2000px; /* Altura deseada para el <main> */
     background-color: #fff0C9;
-    color: #11111f;
-    padding: 25em;
+    display: flex;
+    align-items: flex-start;
+    overflow-x: hidden;
+}
+#vermas{
+    background-color: #11111f;
+    color: #f57eb6;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bold;
 }
+/* Searcher rosado y un rectangulo con esquinas curvas */
+#searcher{
+    background-color: #f57eb6;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline-color: #f57eb6;
+    font-family: "",sans-serif;
+}
+#searcher:focus {
+    outline-color: #f57eb6; /* Cambia el color a rosado */
+  }
+/* Un rectangulo con lineas curvas que va dentro del main */
+#square {
+    background-color: #471F41;
+    border-radius: 10px;
+    width: 50em;
+    height: 30em;
+    display: flex;
+    align-items:start;
+    justify-content: start;
+    margin-top: 5em;
+    margin-left: 6em;
+    text-align: center; /* Alinea el texto al centro */
+}
+
+#title {
+    color: #fff0C9;
+    font-size: 2em;
+    font-weight: bold;
+}
+
 
 footer {
     background-color: #f57eb6;
     color: #fff;
-    padding: 3em;
+    padding: 5em;
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
 }
+#subs{
+    background-color: #11111f;
+    color: #f57eb6;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    border-bottom: #11111f 0.5px solid;
+    font-family: 'Lucida Sans';
+}  

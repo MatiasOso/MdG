@@ -1,0 +1,30 @@
+/* Header */
+header {
+    background-color: #11111f;
+    color: #fff;
+    padding: 3em; 
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+
+
+main {
+    background-color: #fff0C9;
+    color: #11111f;
+    padding: 25em;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #f57eb6;
+    color: #fff;
+    padding: 3em;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}

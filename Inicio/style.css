@@ -93,7 +93,7 @@ main {
     text-align: center;
 } */
 
-#rect{
+/* #rect{
     background-color: #471F41;
     width: 100%;
     height: 30em;
@@ -117,8 +117,32 @@ main {
     justify-content:center;
     text-align: end; 
     margin-top: 6em;
+} */
+#rect2{
+    background-color: #f57eb6;
+    width: 100%;
+    height: 30em;
+    display: flex;
+    align-items:start;
+    justify-content: start;
+    margin-top: 5em;
+    text-align: center; 
 }
-
+#foto2{
+    border: #11111f 5px solid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+    margin-left: 10em;
+}
+#left{
+    color:#fff0C9;
+    display: flex;
+    align-items:end;
+    justify-content:center;
+    text-align: start; 
+    margin-top: 6em;
+}
 
 
 footer {

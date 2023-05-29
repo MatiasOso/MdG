@@ -10,13 +10,23 @@ header {
 *{
     border: red 0.5px solid;
 }
-main {
+#main {
     width: 100%;
     height: 2000px; /* Altura deseada para el <main> */
     background-color: #fff0C9;
     display: flex;
     align-items: flex-start;
     overflow-x: hidden;
+}
+#inicio{
+    margin-top: 20px;
+}
+#Carrito{
+    margin-top: 11px;
+}
+#Persona{
+    margin-top: 11px;
+    margin-left: 65px;
 }
 #vermas{
     background-color: #11111f;
@@ -25,23 +35,31 @@ main {
     font-size: 1em;
     font-weight: bold;
 }
-/* Searcher rosado y un rectangulo con esquinas curvas */
-/* #searcher{
+#vermas2{
+    background-color: #11111f;
+    color: #f57eb6;
+    text-align: center;
+    font-size: 1em;
+
+}
+/* Searcher rosado y un rectangulo con esquinas curvas y barra buscadora  */
+#searcher{
     background-color: #f57eb6;
-    border-radius: 10px;
-    width: 100%;
-    height: 50px;
-    display: flex;
+    border-radius: 100px;
+    width: 500px;
+    height: 32px;
+    display: initial;
     align-items: center;
     justify-content: center;
     outline-color: #f57eb6;
     font-family: "",sans-serif;
+    margin-top: 20px;
 }
 #searcher:focus {
     outline-color: #f57eb6; /* Cambia el color a rosado */
- /* } */
+ }
 /* Un rectangulo con lineas curvas que va dentro del main */
-/* #square {
+#square {
     background-color: #471F41;
     border-radius: 10px;
     width: 70em;
@@ -91,9 +109,9 @@ main {
     margin-top: 5em;
     margin-left: 6em;
     text-align: center;
-} */
+} 
 
-/* #rect{
+/*#rect{
     background-color: #471F41;
     width: 100%;
     height: 30em;
@@ -103,6 +121,7 @@ main {
     margin-top: 5em;
     text-align: center; 
 }
+*/
 #foto{
     border: #11111f 5px solid;
     align-items: center;
@@ -117,7 +136,7 @@ main {
     justify-content:center;
     text-align: end; 
     margin-top: 6em;
-} */
+}
 #rect2{
     background-color: #f57eb6;
     width: 100%;

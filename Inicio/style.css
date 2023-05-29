@@ -26,7 +26,7 @@ main {
     font-weight: bold;
 }
 /* Searcher rosado y un rectangulo con esquinas curvas */
-#searcher{
+/* #searcher{
     background-color: #f57eb6;
     border-radius: 10px;
     width: 100%;
@@ -39,30 +39,90 @@ main {
 }
 #searcher:focus {
     outline-color: #f57eb6; /* Cambia el color a rosado */
-  }
+ /* } */
 /* Un rectangulo con lineas curvas que va dentro del main */
-#square {
+/* #square {
     background-color: #471F41;
     border-radius: 10px;
-    width: 50em;
+    width: 70em;
     height: 30em;
     display: flex;
     align-items:start;
     justify-content: start;
     margin-top: 5em;
     margin-left: 6em;
-    text-align: center; /* Alinea el texto al centro */
+    text-align: center; 
 }
 
 #title {
     color: #fff0C9;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bold;
+} 
+#subtitle {
+    color: #fff0C9;
+    font-size: 4em;
+    margin-top: 0;
+    line-height: 1em; 
+    text-align: left;
+    font-weight: bold;
+  }
+
+#oso{
+    background-color: #471F41;
+    border-radius: 10px;
+    width: 70em;
+    height: 30em;
+    display: flex;
+    align-items:start;
+    justify-content: start;
+    margin-top: 5em;
+    margin-left: 6em;
+    text-align: center;
+}
+#gus{
+    background-color: #471F41;
+    border-radius: 10px;
+    width: 70em;
+    height: 30em;
+    display: flex;
+    align-items:start;
+    justify-content: start;
+    margin-top: 5em;
+    margin-left: 6em;
+    text-align: center;
+} */
+
+#rect{
+    background-color: #471F41;
+    width: 100%;
+    height: 30em;
+    display: flex;
+    align-items:start;
+    justify-content: start;
+    margin-top: 5em;
+    text-align: center; 
+}
+#foto{
+    border: #11111f 5px solid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6em;
+    margin-left: 10em;
+}
+#right{
+    color:#fff0C9;
+    display: flex;
+    align-items:start;
+    justify-content:center;
+    text-align: end; 
+    margin-top: 6em;
 }
 
 
+
 footer {
-    background-color: #f57eb6;
+    background-color: #11111f;
     color: #fff;
     padding: 5em;
     text-align: center;
@@ -75,6 +135,5 @@ footer {
     text-align: center;
     font-size: 1em;
     font-weight: bold;
-    border-bottom: #11111f 0.5px solid;
     font-family: 'Lucida Sans';
 }  

@@ -236,8 +236,8 @@ footer {
 }  
 section{
     display: flex;
-    width: 600px;
-    height: 430px;
+    width: 100%;
+    height: 50%;
 }
 section img{
     width: 0px;

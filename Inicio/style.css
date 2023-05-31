@@ -79,6 +79,16 @@ header {
     margin-left: 6em;
     text-align: center; 
 }
+#botones{
+    background-color: #11111f;
+    border-radius: 10px;
+    width: 32em;
+    height: 4em;
+    margin-top: -12em;
+    margin-left: 6em;
+    color: #fff0C9;
+
+}
 #lupita{
     margin-top: 66px;
     margin-left: 361px;
@@ -124,8 +134,10 @@ header {
     text-align: center;
 } 
 
-/*#rect{
-    background-color: #471F41;
+
+/* productos */
+#rect{
+background-color: #471F41;
     width: 100%;
     height: 30em;
     display: flex;
@@ -133,8 +145,8 @@ header {
     justify-content: start;
     margin-top: 5em;
     text-align: center; 
-}
-*/
+}	
+
 #foto{
     border: #11111f 5px solid;
     align-items: center;
@@ -150,14 +162,30 @@ header {
     text-align: end; 
     margin-top: 6em;
 }
-#rect2{
+
+#rect1{
+    background-color: #471F41;
+    width: 100%;
+    display: flex;
+    align-items:start;
+    justify-content: start;
+    text-align: center; 
+}
+#foto1{
+    border: #11111f 5px solid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-top: 1px;
+
+}
+/*#rect2{
     background-color: #f57eb6;
     width: 100%;
     height: 30em;
     display: flex;
     align-items:start;
     justify-content: start;
-    margin-top: 5em;
     text-align: center; 
 }
 #foto2{
@@ -167,6 +195,7 @@ header {
     margin-top: 5em;
     margin-left: 10em;
 }
+*/
 #left{
     color:#fff0C9;
     display: flex;

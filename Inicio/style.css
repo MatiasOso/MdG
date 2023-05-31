@@ -162,6 +162,7 @@ background-color: #471F41;
     justify-content:center;
     text-align: end; 
     margin-top: 6em;
+    font-weight: 100px;
 }
 #rect1{
     background-color: #471F41;
@@ -174,47 +175,52 @@ background-color: #471F41;
 
 
 }
+#botones2{
+    color: #fff0C9;
+    background-color: #11111f;
+    border-radius: 10px;
+    width: 32em;
+    height: 4em;
+    margin-top: -12em;
+    margin-left: 6em;
+    color: #fff0C9;
+    
+    
+}
+#rect2{
+    background-color: #F57EB6;
+    width: 100%;
+    height: 25em;
+    display: flex;
+    align-items:start;
+    justify-content: start;
+    text-align: center;
+}
 #foto1{
-    border: #11111f 5px solid;
     align-items: center;
     justify-content: center;
     border-radius: 30px;
     margin-top: 50px;
-
-}
-#botones2{
-}
-
-/*#rect2{
-    background-color: #f57eb6;
-    width: 100%;
-    height: 30em;
-    display: flex;
-    align-items:start;
-    justify-content: start;
-    text-align: center; 
 }
 #foto2{
-    border: #11111f 5px solid;
     align-items: center;
     justify-content: center;
-    margin-top: 5em;
-    margin-left: 10em;
+    border-radius: 30px;
+    margin-top: 50px;
 }
-*/
 #left{
+    font-size: 100%;
     color:#fff0C9;
     display: flex;
-    align-items:end;
+    align-items:start;
     justify-content:center;
     text-align: start; 
     margin-top: 6em;
+    font-weight: 100px;
 }
-
-
 footer {
-    background-color: #11111f;
-    color: #fff;
+    background-color:#fff0C9 ;
+    color: #000;
     padding: 5em;
     text-align: center;
     font-size: 1.5em;

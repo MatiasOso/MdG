@@ -43,3 +43,14 @@ header {
 
 /*fin barra busqueda*/
 
+/* chocolate*/
+
+#helado{
+    background-color: #fff0C9;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    overflow-x: hidden;
+}
+

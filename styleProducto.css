@@ -1,4 +1,8 @@
+*{
+    border: red 0.5px solid;
+}
 /*inicio barra busqueda*/
+
 header {
     background-color: #11111f;
     color: #fff;
@@ -30,6 +34,8 @@ header {
 }
 #Persona{
     margin-top: 11px;
+
+
     margin-left: 65px;
 }
 #vermas{
@@ -43,14 +49,27 @@ header {
 
 /*fin barra busqueda*/
 
-/* chocolate*/
+/* chocolate derretido */
 
-#helado{
+#derretido{
     background-color: #fff0C9;
     width: 100%;
-    height: 100%;
+    height: 22em;
     display: flex;
     align-items: flex-start;
     overflow-x: hidden;
 }
+
+/* fin chocolate derretido */
+
+/* inicio mercado*/
+#main{
+    background-color: #fff0C9;
+    /* el footer esta utilizando este main*/
+}
+
+
+
+
+/* fin mercado*/
 

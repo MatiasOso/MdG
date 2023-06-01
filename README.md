@@ -1,2 +1,0 @@
-# MdG
- Mundo de Golosinas

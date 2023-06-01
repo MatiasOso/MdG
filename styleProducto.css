@@ -1,0 +1,45 @@
+/*inicio barra busqueda*/
+header {
+    background-color: #11111f;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+#inicio{
+    margin-top: 20px;
+}
+#searcherLupa{
+    margin-left: 1%;
+ }
+ #searcher{
+    background-color: #f57eb6;
+    border-radius: 100px;
+    width: 500px;
+    height: 32px;
+    display: initial;
+    align-items: center;
+    justify-content: center;
+    outline-color: #f57eb6;
+    font-family: "",sans-serif;
+    margin-top: 20px;
+}
+#Carrito{
+    margin-top: 11px;
+}
+#Persona{
+    margin-top: 11px;
+    margin-left: 65px;
+}
+#vermas{
+    background-color: #11111f;
+    color: #f57eb6;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*fin barra busqueda*/
+
